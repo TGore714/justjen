@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Contact | Just Jen Roofing</title>
+  <link rel="stylesheet" href="C:\Users\tyler\justjen\style.css" />
+  <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+</head>
+<body>
+
+<!-- Navbar -->
+  <nav class="navbar">
+  <div class="logo">
+    <img src="C:\Users\tyler\justjen\images\logo.png" alt="Just Jen Roofing Logo" />
+  </div>
+
+<div class="menu-toggle" id="mobile-menu">
+  <span class="bar"></span>
+  <span class="bar"></span>
+  <span class="bar"></span>
+</div>
+
+  <ul class="nav-links" id="nav-links">
+    <li><a href="C:\Users\tyler\justjen\index.html">Home</a></li>
+    <li><a href="C:\Users\tyler\justjen\about.html">About</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="gallery.html">Gallery</a></li>
+    <li><a href="C:\Users\tyler\justjen\contact.html">Contact</a></li>
+  </ul>
+</nav>
+
+  <!-- HERO SECTION -->
+  <section class="contact-hero">
+    <div class="contact-hero-overlay">
+      <h1 data-aos="fade-up">Let’s Talk About Your Project</h1>
+      <p data-aos="fade-up" data-aos-delay="100">Get a free quote and set up a meeting — no pressure, just honest advice.</p>
+      <a href="#quote-form" class="hero-btn" data-aos="fade-up" data-aos-delay="200">Request a Free Quote</a>
+    </div>
+  </section>
+
+  <!-- CONTACT FORM SECTION -->
+  <section class="contact-main" id="quote-form">
+    <div class="contact-card" data-aos="fade-up">
+      <form action="https://formspree.io/f/your-form-id" method="POST" enctype="multipart/form-data">
+        <h2>Get Your Free Quote</h2>
+        <div class="form-grid">
+          <input type="text" name="name" placeholder="Full Name" required />
+          <input type="email" name="email" placeholder="Email Address" required />
+          <input type="tel" name="phone" placeholder="Phone Number" required />
+          <input type="text" name="address" placeholder="Street Address or ZIP Code" required />
+           <select name="service" required>
+             <option value="">Select a Service</option>
+             <option>Roofing</option>
+             <option>Gutters</option>
+             <option>Patios</option>
+             <option>Arbors</option>
+             <option>Decks</option>
+             <option>Screened Rooms</option>
+           </select>
+          <input type="text" name="preferred_time" placeholder="Preferred Time for Meeting" />
+          <input type="url" name="image_link" placeholder="Link to a photo (optional)" />
+          <small style="margin-top: -1rem; margin-bottom: 1rem; display: block; color: #666;">
+          (Upload your photo to Google Drive or Dropbox and paste the link here.)
+          </small>
+
+        </div>
+        <textarea name="message" placeholder="Tell us about your project..." required></textarea>
+        <button type="submit" class="btn-primary">Submit Request</button>
+      </form>
+    </div>
+  </section>
+  <script src="main.js"></script>
+  <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+  <script>AOS.init();</script>
+</body>
+</html>
