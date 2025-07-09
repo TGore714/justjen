@@ -393,3 +393,75 @@ input[type="file"] {
   font-size: 1rem;
   color: #444;
 }
+
+.services-hero {
+  background: url('https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/468977144_9269569173055683_5014572206356643472_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=833d8c&_nc_ohc=NFcRduEYRp8Q7kNvwE5gElm&_nc_oc=AdnEYUEXDyz7xx6D2CIzcmjHBWcmyEOK1ckAD-0WuiWSN2hQv_Op6uViGxnwTumysDX8k8tiLkjHWEc26sz35pHU&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=aeBz6grxV6TXB47zmJiR-g&oh=00_AfR6f6WuLKgnDqjFYnksDj4d6q4ZIvPCQoQBvpkdlgY5nA&oe=687448C5') center/cover no-repeat;
+  padding: 6rem 2rem;
+  text-align: center;
+  color: white;
+  position: relative;
+}
+
+.services-hero::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 0;
+}
+
+.hero-overlay {
+  position: relative;
+  z-index: 1;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.services-hero h1 {
+  font-size: 2.8rem;
+  margin-bottom: 1rem;
+}
+
+.services-hero p {
+  font-size: 1.2rem;
+  color: #f0f0f0;
+}
+
+.services-list-section {
+  background: #f9f9f9;
+  padding: 5rem 2rem;
+}
+
+.services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  gap: 2rem;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.service-box {
+  background: white;
+  padding: 2rem;
+  border-radius: 12px;
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.08);
+  transition: transform 0.3s ease;
+}
+
+.service-box:hover {
+  transform: translateY(-5px);
+}
+
+.service-box h2 {
+  color: #222;
+  margin-bottom: 0.5rem;
+}
+
+.service-box p {
+  color: #555;
+  line-height: 1.5;
+}
+
+.service-box.highlight {
+  border: 2px solid #32CD32;
+}
