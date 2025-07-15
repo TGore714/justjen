@@ -40,7 +40,7 @@ body {
 /* Hero Section */
 .hero {
   height: 90vh;
-  background: url('https://scontent-dfw5-1.xx.fbcdn.net/v/t39.30808-6/486581258_1176295561090990_1087111297354994041_n.jpg?_nc_cat=101&ccb=1-7&_nc_sid=833d8c&_nc_ohc=FnXvkdEs6OsQ7kNvwGofvAr&_nc_oc=AdkO94T0pBAIwLXlujnTrBjhe3bltWSMQHak98na3hySlajGm0QytoHgvLgpjdGBN5cFx8xZczFuNJuixJKgLzUS&_nc_zt=23&_nc_ht=scontent-dfw5-1.xx&_nc_gid=O9e31rBvwZ3XcZn65gh-Ww&oh=00_AfSkA1AFs7wxQMru-Y1MiyO5xZNEkQh7s8XeviEec2zjPg&oe=68744D12') center/cover no-repeat;
+  background: url('images/homeimg.jpg') center/cover no-repeat;
   display: flex;
   justify-content: center;
   align-items: center;
