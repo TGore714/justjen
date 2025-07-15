@@ -262,7 +262,7 @@ body {
 }
 
 .contact-hero {
-  background: url('https://scontent-dfw5-2.xx.fbcdn.net/v/t39.30808-6/481262907_1155394523181094_2343335210386921368_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=833d8c&_nc_ohc=uUwkVUqKANoQ7kNvwGUbc0P&_nc_oc=Adklm1FYE04kHVMnZixdcvpfGiBPlbOLe1WbtrWtF0RdNeo_1VwN29XjsW1l0lmyXpiJ6SLi8tGmOA6oj5T7URkL&_nc_zt=23&_nc_ht=scontent-dfw5-2.xx&_nc_gid=Zub0QFUbWtb3-zPKshyviQ&oh=00_AfQEs5HD-zFOuPzILPNZLXr9BTIyARh8D5nZcqTzjY7qvQ&oe=686F79D7') center/cover no-repeat;
+  background: url('images/contimg.jpg') center/cover no-repeat;
   height: 65vh;
   position: relative;
   display: flex;
